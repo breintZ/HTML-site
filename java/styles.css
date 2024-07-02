@@ -1,0 +1,49 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    color: black;
+    list-style-type: none;
+}
+.first-task{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    border: dashed black 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+.first-task input{
+    padding: 10px;
+    margin: 20px;
+}
+.second-task{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+    border: dashed black 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.third-task{
+    width: 50%;
+    height: 250px;
+    background-color: yellow;
+    border: dashed black 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

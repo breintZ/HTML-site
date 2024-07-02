@@ -1,0 +1,11 @@
+#top {height: 10%; width: 99.75%; border: 1px solid rgb(47, 118, 211); background-image: url(Background.jpg); text-shadow: 1px 1px 2px, 0px 0px 5px lime;}
+#left {height: 88%; width: 15%; border: 1px solid rgb(47, 118, 211); float: left; background-image: url(Background.jpg); }
+#content {height: 88%; width: 84.64%; border: 1px solid rgb(47, 118, 211); float: left; background-image: url(Background.jpg);}
+#if {height: 100%; width:100%; border: 0px solid black;}
+.help{cursor: help}
+.b1 {text-align: center; margin-top: 22px; margin-left: 43%; text-decoration: none; float: left; color: black; font-size: x-large; font-family: Times New Roman;}
+.b1:hover {color: blueviolet; background-color: darkgray;}
+.b2 {text-align: center; margin-top: 22px; margin-left: 10px; text-decoration: none; float: left; color: black; font-size: x-large; font-family: Times New Roman;}
+.b2:hover {color: blueviolet; background-color: darkgray;}
+p:first-letter {color: red;}
+

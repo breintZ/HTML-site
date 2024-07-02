@@ -1,0 +1,324 @@
+body{
+	background-image: url('aaa.jpg');
+}
+
+a {
+	color:#ffffff;
+	text-decoration: none; 
+}
+
+div{
+	 
+	font-family: 'ALGERIAN';
+}
+
+.pass_cont{
+    display: flex;
+	justify-content: center;
+	font-family: 'ALGERIAN';
+	Color: #ffffff;
+	font-size: 28px;
+	
+	width: 98%;
+	height: 50%;
+	float: center;
+	bottom: 200px;
+	 
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  color: #F2F2F2; 
+}
+
+.item {
+  width: 12%;
+  margin-right: 5px;
+  display: inline-block; /* Строчно-блочный элемент */
+  position: relative;
+}
+
+.item img {
+  display: block;
+  max-width: 100%
+}
+
+.item:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left:  0; right: 0; bottom: 5px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,255,0.6); /* Полупрозрачный цвет фона */
+    color: #485275; /* Цвет текста */
+    text-align: bottom; /* Выравнивание текста по центру */
+    font-family: ALGERIAN, sans-serif; /* Гарнитура шрифта */
+    font-size: 15px; /* Размер текста подсказки */
+	font-weight:bold;
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+	border-radius: 5px;
+}
+
+#a1{
+	color: #83919E;
+}
+
+#znak:hover{
+	text-shadow: 3px 3px 3px #0E355C;
+}
+
+.icon {
+	padding-left: 80px;
+    background-position: left center; 
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.i-top{
+	background-image:url('pred.png'); 
+}
+
+.i-down{
+	background-image:url('pred.png'); 
+	background-size: 33px 33px;
+}
+
+.i-moon{
+	background-image:url('luna.png'); 
+	background-size: 30px 30px;
+	padding-left: 30px;
+}
+
+.i-ob{
+	background-image:url('ob.png'); 
+	background-size: 30px 30px;
+	padding-left: 30px;
+}
+
+.i-love{
+	background-image:url('love.png'); 
+	background-size: 30px 30px;
+	padding-left: 30px;
+}
+
+.i-fin{
+	background-image:url('$.png'); 
+	background-size: 30px 30px;
+	padding-left: 30px;
+}
+
+.i-star{
+	background-image:url('star.png'); 
+	background-size: 30px 30px;
+	padding-left: 30px;
+}
+
+#top{
+	font-family: 'ALGERIAN';
+	text-shadow: 3px 3px 3px #000000;
+	list-style: none;
+	Color: #ffffff;
+	width: 100%;
+	height: 16%;
+	font-size: 60px;
+	font-weight:bold;
+	margin-right: 200px; 
+    padding: 30px;
+	position: relative;
+	
+}
+
+#top1{
+	font-family: 'ALGERIAN';
+	Color: #ffffff;
+	font-size: 28px;
+	border: 2px solid #323232;
+	width: 98%;
+	height: 6%;
+
+	padding-left: 20px;
+	 background-color: #674646;
+	 float: left;
+}
+
+
+.cl1{
+	width: 100%;
+	height: 30%;
+	float: center;
+	
+}
+
+.d1{
+	width: 96%;
+	height: 70%;
+	
+	border-radius: 20px;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	color: #F2F2F2;
+	box-shadow: 10px 10px 7px #0E355C;
+	background-color: #667c9f;
+}
+
+.content{
+	width: 100%;
+	height: 70%;
+}
+
+.content2{
+	width: 100%;
+	height: 110%;
+}
+.con1{
+	background-color: #F2F2F2;
+	
+	width: 96%;
+	height: 90%;
+	border-radius: 20px;
+	box-shadow: 10px 10px 7px #0E355C;
+
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	color: #f2f2f2;
+	
+}
+
+.con2{
+	width: 30%;
+	height: 99%;
+	color: #773C19;
+	font-size: 40px;
+	font-weight:bold;
+	text-align: right;
+	float:left;
+	margin: 0 50px 50px 0;
+}
+
+.con3{
+	width: 50%;
+	height: 99%;
+	opacity: 1;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: left;
+	float:right;
+	color:#485275;
+	font-family: 'Century';
+	margin: 0 80px 50px 0; /* Отступ слева */
+	
+}
+
+.cl3{
+	width: 99%;
+	height: 130px;
+	text-align: center;
+    float: center;
+	font-family: 'ALGERIAN';
+	font-weight:bold;
+	color:#ffffff;
+	
+}
+
+#down{
+	font-family: 'Century';
+	font-size: 23px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-shadow: 3px 3px 3px #000000;
+}
+
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-family: 'Century';
+	font-size: 27px;
+	border-radius: 10px;
+}
+
+.hr {
+    margin: 0;
+    padding: 4px; 
+   }
+   
+   .bg{
+	   background-color: #674646;
+   }
+   
+   .li {
+    display: inline; /* Отображать как строчный элемент */
+    margin: 0 50px 0 50px; /* Отступ слева */
+    padding: 60px; /* Поля вокруг текста */
+   }
+
+#if{
+	width:100%;
+	height: 100%;
+}
+
+
+
+.message{
+	color:#747474;
+	background-color: #e4e4e4;
+	border: 2px solid #323232;
+	font-size: 20px;
+	margin: 10px;
+	padding: 15px;
+}
+.success{
+	color:#ffffff;
+	background-color: #19a15f;
+}
+
+.fail{
+	color:#ffffff;
+	background-color: #d65144;
+}
+
+.info{
+	color:#ffffff;
+	background-color: #4b8bf5;
+}
+
+.warning{
+	color:#000000;
+	background-color: #ffce43;
+}
+
+.message:hover{
+	border: 6px solid #323232;
+}
+
+#a1:hover{
+	color: blue;
+}
+
+#test{
+	transform: rotate(-15deg) scale(0.8);
+	transition: 5s all;
+	background-color: pink;
+	color: #ffffff;
+	padding: 15px;
+	margin: 15px;
+	border: 7px solid purple;
+	border-radius: 20px;
+	opacity: 0.5;
+	box-shadow: 33px 33px 7px #000000;
+	width: 60%;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	float: right;
+}
+
+#test:hover{
+	transform: rotate(90deg) scale(1);
+	opacity: 1;
+	background-color: aquamarine;
+}

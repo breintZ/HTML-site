@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link src="style.css">
+<script type="text/javascript">
+function f(file)
+{
+document.getElementById("if").src=file;
+}
+</script>
+        <title>iframe</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top">
+    <a href="3.html" class="b1 help" target="q">Главная страница</a>
+    <a href="1.html" class="b2 help" target="q" class="pointer">Категория 1</a>
+    <a href="2.html" class="b2 help" target="q" class="pointer">Категория 2</a>
+</div>    
+
+<div class="cl1">
+<div class="d1 flex">
+    <p>Карта сайта</p>
+    <ul class="hr " align="center">
+    <li ><a href="2.html" target="q">Главная страница</a></li>
+    <li ><a href="1.html" target="q">Категория 1</a></li>
+    <li ><a href="3.html" target="q">Категория 2</a></li>
+    </ul>
+    <ul class="hr " align="center">
+	<li><a href="javascript:\\" onclick="f('2.html')">Главнаястр</a></li>
+	<li><a href="javascript:\\" onclick="f('1.html')">Категория 1</li>
+	<li><a href="javascript:\\" onclick="f('3.html')">Категория 2</a></li>
+    </ul>
+    <ul class="hr " align="center">
+    <li><input type="button" onclick="f('3.html')" value="Главнаястр"></li>
+    <li><input type="button" onclick="f('1.html')" value="Категория 1"></li>
+    <li><input type="button" onclick="f('2.html')" value="Категория 2"></li>
+    </ul>
+</div>
+</div>
+<div id="content">
+    <iframe id="if" name="q"></iframe>
+</div>
+</body>
+</html>
